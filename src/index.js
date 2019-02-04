@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import NoMatch from './pages/404';
-import App from './demo_page/index';
+import App from './home-one';
 import HomeOne from './home-one';
 import HomeTwo from './home-two';
 import HomeThree from './home-three';
@@ -30,9 +30,9 @@ class Root extends React.Component {
   		<BrowserRouter basename={'/'} >
 		  	<Switch>
 			  <Route exact path={`${process.env.PUBLIC_URL}/`} component={App}/>
-			  <Route path={`${process.env.PUBLIC_URL}/home-one`} component={HomeOne}/>
+{/* 			  <Route path={`${process.env.PUBLIC_URL}/home-one`} component={HomeOne}/>
 			  <Route path={`${process.env.PUBLIC_URL}/home-two`} component={HomeTwo}/>
-			  <Route path={`${process.env.PUBLIC_URL}/home-three`} component={HomeThree}/>
+			  <Route path={`${process.env.PUBLIC_URL}/home-three`} component={HomeThree}/> */}
 			  <Route path={`${process.env.PUBLIC_URL}/blog-details`} component={BlogDetails}/>
 			  <Route path={`${process.env.PUBLIC_URL}/blog-list`} component={BlogList}/>
 			  <Route path={`${process.env.PUBLIC_URL}/blog-left-sidebar`} component={BlogLeftSidebar}/>
