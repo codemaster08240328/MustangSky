@@ -30,7 +30,7 @@ class Footer extends React.Component {
                                    <img src="assets/images/locate.png" alt="locate" />
                                 </div>
                                 <div className="footer-address">
-                                   <a href={null}>B-17 ABC Center,  Near Temple, USA  123456</a>
+                                   <a href={null}>San Antonio, Texas 78255</a>
                                 </div>
                              </li>
                              <li>
@@ -38,7 +38,7 @@ class Footer extends React.Component {
                                    <img src="assets/images/telephone.png" alt="telephone" />
                                 </div>
                                 <div className="footer-address">
-                                    <a href={null}>122-456-7890  /  124-789-5690</a>
+                                    <a href={null}>(210) 294-9290</a>
                                 </div>
                              </li>
                              <li>
@@ -46,15 +46,7 @@ class Footer extends React.Component {
                                    <img src="assets/images/fotter-email.png" alt="fotter-email" />
                                 </div>
                                 <div className="footer-address">
-                                    <a href={null}>support@compnay.com</a>
-                                </div>
-                             </li>
-                             <li>
-                                <div className="footer-icon">
-                                   <img src="assets/images/fax.png" alt="" />
-                                </div>
-                                <div className="footer-address">
-                                    <a href={null}>123-456  /  456-789</a>
+                                    <a href={null}>email@mustangsky.com</a>
                                 </div>
                              </li>
                           </ul>
@@ -70,7 +62,7 @@ class Footer extends React.Component {
         </section>
 
         <div className="copyright-section index-footer">
-           <p>2018-19 copyright by themeforest powered by pixel strap</p>
+           <p>2019 Copyright by MustangSky</p>
         </div>
 
         <div className="tap-top">
