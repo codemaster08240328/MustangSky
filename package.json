@@ -2,7 +2,6 @@
   "name": "tovo-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://react.pixelstrap.com/tovo/",
   "basename": "/",
   "dependencies": {
     "@aws-amplify/cli": "^1.1.0",
